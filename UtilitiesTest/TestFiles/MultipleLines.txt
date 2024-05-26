@@ -1,0 +1,9 @@
+public class Program {
+    public static void Main(String[] args) {
+        List<int> list1 = new List<int>();
+        list1.Add(900);
+        list1.Add(400);
+        list1.Add(300);
+        Console.WriteLine(list1.Count);
+    }
+}

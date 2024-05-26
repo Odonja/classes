@@ -1,0 +1,1 @@
+Reference `..\Utilities\Utilities.csproj` added to the project.
