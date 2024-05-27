@@ -11,9 +11,6 @@ public class WordCounter : IWordCountInterface
         using (StreamReader sr = new StreamReader(filename))
         {
             string? line;
-            // Read and display lines from the file until the end of
-            // the file is reached.
-
             while ((line = sr.ReadLine()) != null)
             {
                 string alphaLine = ReplaceNonAlphaCharacters(line);
